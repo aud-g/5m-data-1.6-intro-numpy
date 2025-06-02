@@ -21,7 +21,9 @@ Write a Python code to multiply each element in the array by 2.
 Answer:
 
 ```python
-
+arr = np.array([1, 2, 3, 4, 5])
+result = arr * 2
+print(result)
 ```
 
 ### Question 2
@@ -37,6 +39,9 @@ Write a Python code to select the second row of the array.
 Answer:
 
 ```python
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+second_row = arr[1]
+print(second_row)
 
 ```
 
