@@ -52,7 +52,8 @@ Create a 2D numpy array of shape (5, 5) filled with the number 1.
 Answer:
 
 ```python
-
+arr = np.ones((5, 5))
+print(arr)
 ```
 
 ### Question 4
@@ -68,7 +69,9 @@ Write a Python code to calculate the sum of all the elements in each row.
 Answer:
 
 ```python
-
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+row_sums = arr.sum(axis=1)
+print(row_sums)
 ```
 
 ### Question 5
@@ -84,7 +87,9 @@ Write a Python code to calculate the average of all the elements.
 Answer:
 
 ```python
-
+arr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+avgerage = arr.mean()
+print(avgerage)
 ```
 
 ## Submission
